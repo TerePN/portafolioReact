@@ -1,17 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,400;1,500;1,700&display=swap');
+
 /************ Custom Font ************/
 @font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Bold.ttf');
+	font-family: 'Grenze', serif;
+	src: url('./assets/font/Grenze/Grenze-ExtraBold.ttf');
 	font-weight: 700;
 }
 @font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Medium.ttf');
+  font-family: 'Grenze', serif;
+	src: url('./assets/font/Grenze/Grenze-Medium.ttf');
 	font-weight: 500;
 }
 @font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Book.ttf');
+	font-family: 'Grenze', serif;
+	src: url('./assets/font/Grenze/Grenze-Regular.ttf');
 	font-weight: 400;
 }
 
@@ -35,13 +37,14 @@ body {
    */
   background: linear-gradient(90.21deg, rgba(156, 10, 39, 0.9) -5.91%, rgba(189, 47, 168, 0.7) 111.58%);
   color: #111 !important;
-  font-family: 'Centra', sans-serif !important;
+  font-family: 'Grenze', serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
+  font-family: 'Grenze', serif !important;
 }
 
 p, a, li, button, ul {
@@ -272,12 +275,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner h1 {
   font-size: 45px;
-  /* font-weight: 700; */
+  font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 20px;
   display: block;
   color: rgb(6, 7, 7);
+  font-family: 'Grenze', serif;
 }
 .banner p {
   color: #f9f4f4;
