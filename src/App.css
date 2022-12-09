@@ -280,7 +280,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
-  color: rgb(6, 7, 7);
+  color: #fc9fec;
+  /* background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.9) -5.91%, rgba(235, 83, 185, 0.9) 111.58%); */
   font-family: 'Grenze', serif;
 }
 .banner p {
