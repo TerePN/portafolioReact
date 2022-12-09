@@ -49,7 +49,6 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon"> <a href="https://www.linkedin.com/in/teresa-cecilia-pana-1a7968184/"><img src={navIcon1} alt="" /></a>
-               
                 <a href="https://github.com/TerePN"><i class="fa-brands fa-github"></i></a>
                 <a href="https://instagram.com/tere.pana?igshid=ZDdkNTZiNTM="><img src={navIcon3} alt="" /></a>
               </div>
