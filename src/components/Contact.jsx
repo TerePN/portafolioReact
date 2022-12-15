@@ -10,26 +10,14 @@ export const Contact = () => {
   return (
     <section className="contact" id="connect">
       <Container>
-        <Row className="align-items-center">
-          {/* <Col size={12} md={6}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
-              }
-            </TrackVisibility>
-          </Col> */}
-          <Col size={12}  >
-            <TrackVisibility>
-              {({ isVisible }) => (
+        
+          
                 <div
-                  className={
-                    isVisible ? "animate__animated animate__fadeIn" : ""
-                  }
-                >
+                  className="contact_conteiner">
                   <h2>Get In Touch</h2>
                   <form
                     action="https://formsubmit.co/terepana7@gmail.com" method="POST">
-                    <Col size={12} sm={6} className="px-1">
+                    <Col size={12}  className="px-1">
                     <input type="text" name="name" placeholder="Name"/>
                     <input type="email" name="email" placeholder="Email Address" />
                     <textarea type="text" name="message"  placeholder="Message"></textarea>
@@ -38,10 +26,9 @@ export const Contact = () => {
                     <button type="submit">Send</button>
                   </form>
                 </div>
-              )}
-            </TrackVisibility>
-          </Col>
-        </Row>
+              
+          
+        
       </Container>
     </section>
   );

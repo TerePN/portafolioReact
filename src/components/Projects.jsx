@@ -9,7 +9,6 @@ import Img1 from "../assets/img/fundamentos.png";
 import Img2 from "../assets/img/html.jpeg";
 import Img3 from "../assets/img/java_script.jpeg";
 import Img4 from "../assets/img/react.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -20,11 +19,13 @@ const Projects = () => {
       title: "POKE API",
       description: "Design & Development",
       imgUrl: projImg1,
+      url:"https://splendid-pasca-26ee8a.netlify.app/",
     },
     {
       title: "Ricky and Morty",
       description: "Design & Development",
       imgUrl: projImg2,
+      url:"https://polite-taffy-9ba60f.netlify.app/"
     },
     {
       title: "E-commerce",
@@ -36,6 +37,7 @@ const Projects = () => {
       title: "App React",
       description: "Design & Development",
       imgUrl: projImg4,
+      url: "https://beamish-manatee-c2c9ea.netlify.app/",
     },
     
   ];
@@ -61,6 +63,7 @@ const Projects = () => {
       title: "Web Application Development with React",
       description: "Full Stack Software Engineering",
       imgUrl: Img4,
+
     },
   ];
 
@@ -113,12 +116,7 @@ const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    {/* <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane> */}
+                  
                   </Tab.Content>
                 </Tab.Container>
               </div>}

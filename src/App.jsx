@@ -8,7 +8,7 @@ import Skills from "./components/Skills"
 import  Projects  from "./components/Projects";
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
-
+// import Theme from './components/Theme'
 
 
 function App() {
@@ -22,6 +22,8 @@ function App() {
       <Projects/>
       <Contact/>
       <Footer/>
+      {/* <Theme/> */}
+
     </div>
   )
 }
