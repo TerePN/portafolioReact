@@ -6,7 +6,7 @@ import projImg3 from "../assets/img/ECOMMERCE.jpeg";
 import projImg4 from "../assets/img/appReact.jpeg";
 
 import Img1 from "../assets/img/fundamentos.png";
-import Img2 from "../assets/img/html.jpeg";
+import Img2 from "../assets/img/full-stack.png";
 import Img3 from "../assets/img/java_script.jpeg";
 import Img4 from "../assets/img/react.png";
 import 'animate.css';
@@ -55,13 +55,14 @@ const Projects = () => {
     },
     
     {
-      title: "HyperText Markup Language (HTML)",
+      title: "FULL STACK DEVELOPER AND PROGRAMMING SCIENCE",
       description: "Design & Development",
       imgUrl: Img2,
+      url:"https://certificates.academlo.com/en/verify/33894712555235?ref=email"
     },
     {
       title: "Web Application Development with React",
-      description: "Full Stack Software Engineering",
+      description: "Design & Development",
       imgUrl: Img4,
 
     },

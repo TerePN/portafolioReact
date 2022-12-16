@@ -309,9 +309,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner img {
   border-radius: 1rem;
-  width: 60%;
+  width: 70%;
   box-shadow: #000;
-  
 
 }
 
@@ -353,13 +352,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   
   
 }
-.background-image-left {
+/* .background-image-left {
   top: 28%;
   position: absolute;
   bottom: 0;
   width: 40%;
   z-index: -4;
-}
+} */
 
 /************ Projects Css ************/
 .project {
@@ -395,7 +394,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 72%;
+  /* width: 72%; */
   margin: 0 auto;
   border-radius: 50px;
   /* background-color: rgb(255 255 255 / 10%); */
@@ -481,7 +480,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
 }
 .proj-txtx h4 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
@@ -595,10 +594,10 @@ justify-content: center;
   font-size: 14px;
   color: #faf6f6;
   letter-spacing: 0.5px;
-  /* margin-top: 15px; */
+  margin-top: 15px;
   align-items: center;
   justify-content: center;
-  
+  display: inline-flex;
 }
 .social-icons {
   /* display: inline-block; */
